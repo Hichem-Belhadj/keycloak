@@ -10,6 +10,10 @@ import org.springframework.security.config.annotation.web.configurers.AbstractHt
 import org.springframework.security.config.http.SessionCreationPolicy;
 import org.springframework.security.web.SecurityFilterChain;
 
+/**
+ * <a href="https://docs.spring.io/spring-security/reference/servlet/oauth2/resource-server/jwt.html">https://docs.spring.io/spring-security/reference/servlet/oauth2/resource-server/jwt.html</a>
+ */
+
 @Configuration
 @EnableWebSecurity
 @EnableMethodSecurity
