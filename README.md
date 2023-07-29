@@ -33,7 +33,7 @@ These instructions will get you a copy of the project up and running on your loc
     bin/kc.bat start-dev --http-port 8180
     ```
    By default the port used by Keyloak is 8080 you can omit the command ```--http-port 8180```
-3. When creating your "Demo" realm, you can import data directly using the ```realm-export.json``` json file available in the resources package.
+3. When creating your "Demo" realm, you can import data directly using the [realm-export](https://github.com/Hichem-Belhadj/keycloak/tree/main/src/main/resources/realms/realm-export.json) json file available in the resources package.
 4. After launching your application, you can retrieve the user's ```acces_token``` by passing the following url to Postman using a GET method:
    ```bash
     http://localhost:8180/realms/Demo/protocol/openid-connect/token
